@@ -1,7 +1,7 @@
 const initialState={
     theme:'light'
 }
-
+// reducer takes two arguments:- initialState,action
 const themeReducer =(state=initialState,action)=> {
     switch(action.type){
         case 'UPDATE_THEME':
